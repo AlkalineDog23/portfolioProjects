@@ -1,0 +1,13 @@
+﻿  main.cpp
+c:\users\hunte\onedrive - aiken technical college\desktop\c++finalstuff\stephenswetmanfinal\stephenswetmanfinal\main.cpp(217): warning C4018: '<': signed/unsigned mismatch
+c:\users\hunte\onedrive - aiken technical college\desktop\c++finalstuff\stephenswetmanfinal\stephenswetmanfinal\main.cpp(251): warning C4018: '<': signed/unsigned mismatch
+c:\users\hunte\onedrive - aiken technical college\desktop\c++finalstuff\stephenswetmanfinal\stephenswetmanfinal\main.cpp(301): warning C4018: '<': signed/unsigned mismatch
+c:\users\hunte\onedrive - aiken technical college\desktop\c++finalstuff\stephenswetmanfinal\stephenswetmanfinal\main.cpp(454): warning C4018: '<': signed/unsigned mismatch
+c:\users\hunte\onedrive - aiken technical college\desktop\c++finalstuff\stephenswetmanfinal\stephenswetmanfinal\main.cpp(475): warning C4244: '-=': conversion from '_Ty' to 'int', possible loss of data
+          with
+          [
+              _Ty=double
+          ]
+c:\users\hunte\onedrive - aiken technical college\desktop\c++finalstuff\stephenswetmanfinal\stephenswetmanfinal\main.cpp(601): warning C4018: '<': signed/unsigned mismatch
+c:\users\hunte\onedrive - aiken technical college\desktop\c++finalstuff\stephenswetmanfinal\stephenswetmanfinal\main.cpp(678): warning C4018: '<': signed/unsigned mismatch
+  StephenSwetmanFinal.vcxproj -> C:\Users\hunte\OneDrive - Aiken Technical College\Desktop\c++FinalStuff\StephenSwetmanFinal\Debug\StephenSwetmanFinal.exe

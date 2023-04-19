@@ -1,0 +1,149 @@
+
+ztype anything then hit enter to start
+
+Start in Camp, take Sword
+east "Stoner Field"
+look
+"enemy will attack"
+attack 
+Sword till you kill them
+"another enemy attacks"
+attack 
+Sword till you kill them
+east "Cave"
+look
+"Enemy attacks"
+Sword till you kill them
+look
+take 
+key
+take 
+MedKit
+use
+MedKit
+west "Stoner field"
+north "Dead Marsh"
+look
+"Enemy Attacks"
+Sword till you kill them
+look
+take
+MedKit
+use MedKit
+east "Horror Forrest"
+look
+"enemy attacks"
+Sword "until you kill them"
+look
+take 
+BattleAxe
+east "Dead Marsh"
+east "Sanctum" 
+look
+down "Into Lost Sanctum"
+West "Treasure Room", "Locked find key"
+East "Sacrifice Preperation Room"
+look
+"Enemy Attacks"
+attack 
+BattleAxe "until you kill them"
+look
+take 
+key
+take 
+MedKit
+use MedKit
+west "Lost Sanctum"
+use 
+key
+west "Treasure room"
+look
+/*Take Items*/
+use Armor
+east "lost sanctume"
+east "Sacrifice Preperation Room"
+North "Armory"
+look
+take 
+Spear
+South "Sacrifice Preperation Room"
+east "Sacrifice Alter"
+Up "North East wing"
+look
+take 
+MedKit
+take 
+MedKit
+down "Sacrifice Alter"
+south "torture chamber" ,"Locked find key"
+west "Sacrifice Preperation Room"
+down "Prison"
+look
+"Enemy attacks"
+attack
+Spear "until you kill them"
+look
+take 
+key
+take 
+MedKit
+use 
+key
+east "Torture Chamber"
+west "Arcane Sanctuary"
+look
+"Enemy attacks"
+attack 
+Spear "until you kill them"
+look
+take key
+use key
+north "Treasure room2"
+look
+/*Take Items*/
+use shield
+south "Arance Sanctuary"
+south "Rune Library"
+look
+take 
+scroll
+use 
+scroll
+"fire enabled new power gained, attacks do twice damage"
+east "Cathedral"
+north "Room of enchantment"
+look 
+take 
+amulet
+use 
+amulet
+"Grants you full health"
+south "Cathedral"
+down "Lost Sanctum level3"
+west "Alchemy Tomb"
+look
+"Enemy attacks"
+attack
+*weapon of choice* "until you kill them"
+look 
+take 
+key
+east "Lost sanctum level3"
+use key
+east "Treasure room 3"
+look
+take 
+/*take items*/
+use Helm
+west "Lost Sanctum level3"
+west "Alchemy Tomb"
+south "Final Boss"
+look
+"Boss Attacks"
+attack
+*Weapon of choice* until you kill him
+WIN
+
+if Dead
+you will be sent to camp
+you can check out the shop and buy items with the gold you have aquired and try again
