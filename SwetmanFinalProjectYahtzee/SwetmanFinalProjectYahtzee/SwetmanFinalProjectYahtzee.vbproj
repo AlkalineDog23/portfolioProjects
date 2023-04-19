@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AA18C5A9-B600-469F-BD56-EF113D1F2158}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SwetmanFinalProjectYahtzee.My.MyApplication</StartupObject>
+    <RootNamespace>SwetmanFinalProjectYahtzee</RootNamespace>
+    <AssemblyName>SwetmanFinalProjectYahtzee</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SwetmanFinalProjectYahtzee.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SwetmanFinalProjectYahtzee.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmInterface.Designer.vb">
+      <DependentUpon>frmInterface.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmInterface.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainYahtzee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMainYahtzee.Designer.vb">
+      <DependentUpon>frmMainYahtzee.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModuleYahtzee.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmInterface.resx">
+      <DependentUpon>frmInterface.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMainYahtzee.resx">
+      <DependentUpon>frmMainYahtzee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1a1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\six.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1a.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dice.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inkedimages_LI.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yahtzee-arcade.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yahtzee-arcade1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ahtzee-arcade.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yahtzee-arcade2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_2a.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yahtzee_dice.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yahtzee_dice1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yahtzee_dice2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yahtzee_dice3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yahtzee_dice4.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
